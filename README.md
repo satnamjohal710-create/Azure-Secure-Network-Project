@@ -25,3 +25,10 @@ Architected a hardened cloud environment in **Azure (Central India)** designed t
 # Example of creating the private VNet
 az network vnet create --name Satnam-VNet-India --resource-group Satnam-India-RG --location centralindia --address-prefix 10.0.0.0/16
 ​```
+## ⌨️ How to Replicate
+You can find the full deployment script in the `setup_infrastructure.sh` file. 
+To run it, ensure you are logged into the Azure CLI and execute:
+​```bash
+chmod +x setup_infrastructure.sh
+./setup_infrastructure.sh
+​```
